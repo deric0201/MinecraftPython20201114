@@ -1,0 +1,20 @@
+from mcpi.minecraft import Minecraft
+mc = Minecraft.create()
+
+x,y,z = mc.player.getTilePos()
+
+mc.setBlock(x,y,z,)
+
+mc.setBlock(x,y,z,)
+
+mc.setBlock(x,y,z+1,49)
+mc.setBlock(x,y,z-1,49)
+mc.setBlock(x+1,y,z,49)
+mc.setBlock(x-1,y,z,49)
+mc.setBlock(x+1,y,z+1,49)
+mc.setBlock(x-1,y,z+1,49)
+mc.setBlock(x-1,y,z-1,49)
+mc.setBlock(x+1,y,z-1,49)
+
+
+
